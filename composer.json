@@ -1,0 +1,25 @@
+{
+    "name": "hjem/frontpont-security",
+    "description": "Unofficial Frontpoint Security Library",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mathias Hansen",
+            "email": "me@codemonkey.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "mgargano/simplehtmldom": "^1.5",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hjem\\FrontpointSecurity\\" : "src/"
+        }
+    }
+}
